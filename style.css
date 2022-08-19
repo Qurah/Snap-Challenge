@@ -1,0 +1,138 @@
+body, html{
+    margin: 0;
+    background-color: hsl(0, 0%, 98%);
+    font-family: "Epilogue", sans-serif;
+    color: hsl(0, 0%, 8%);
+}
+a{
+    text-decoration: none;
+    color: hsl(0, 0%, 41%);
+}
+nav ul{
+    
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    margin-top: 5px;
+    width: 30%;
+
+}
+.right-nav{
+    margin-left: 780px;
+    font-family: "Epilogue", sans-serif;
+    font-size: 21px;
+    
+}
+nav li{
+    font-weight: 500;
+    margin: 20px 26px 5px 18px ;
+}
+a:hover{
+    color:hsl(0, 0%, 8%);
+    font-weight: 700;
+    cursor: pointer;
+
+}
+.left-nav{
+    margin-left: 39px;
+    font-size: 21px;
+    color: hsl(0, 0%, 41%);
+}
+.left-nav:hover{
+        color:hsl(0, 0%, 8%);
+        font-weight: 700;
+    
+}
+#snap{
+    font-weight: 900;
+font-size: 29px;
+    margin: 0;
+}
+#register{
+    border-radius: 13px;
+    outline: 2px hsl(0, 0%, 8%) solid;
+    padding: 10px 17px;
+    margin-top: 8px;
+}
+.sec1{
+    font-size: 110px;
+    margin:150px 50px 30px  150px;
+    font-weight: 700;
+}
+.sec2{
+font-size: 25px;
+    margin:50px 50px 50px  150px;
+    font-weight: 600;
+    color: hsl(0, 0%, 41%)
+}
+button{
+    color: hsl(0, 0%, 98%);
+    background-color: hsl(0, 0%, 8%);
+    border-radius: 10px;
+    padding: 15px 30px;
+    margin: 20px 50px 100px 150px;
+    font-size: 20px;
+}
+button:hover{
+    background-color: hsl(0, 0%, 98%);
+    color:hsl(0, 0%, 8%);
+    cursor: pointer;
+}
+.clients-images{
+    display: flex;
+    /* justify-content: space-between; */
+    padding: 0px 0px ;
+    margin: 20px 50px 30px 150px;
+}
+
+ div.container{
+    display: flex;
+    flex-direction: row;
+}
+.img-hero{
+    margin-right: auto; 
+    padding-right: auto;
+    margin-left: 170px;
+    margin-top: 40px;
+}
+main{ height: 950px;
+    width: 1850px;
+    background-color: hsl(0, 0%, 98%);
+    box-shadow: 5px 5px 10px 10px rgb(226, 224, 224);
+    margin: 25px 5px 25px 40px;
+
+}
+.dropdown{
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+
+}
+.dropdown:hover{
+    color: hsl(0, 0%, 8%);
+}
+.dropdown-menu{
+    display: none;
+    position: absolute;
+    
+
+    
+    
+}
+.dropdown:hover .dropdown-menu{
+    display: inline-block;
+    width: 8em;
+    height: 9.5em;
+    background-color: rgb(247, 243, 243);
+    text-align: justify;
+    border-radius: 3px;
+    padding-left: 2em;
+    cursor: pointer;
+}
+
+.dropdown:hover .d-content{
+    width: 5.5em;
+    height: 7em;
+    border-radius: 3px;
+    padding-left: 1.5em;
+}
